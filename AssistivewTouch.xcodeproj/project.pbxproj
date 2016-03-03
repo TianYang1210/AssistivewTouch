@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		411A50DE1C87F72300EB8784 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 411A50DD1C87F72300EB8784 /* main.m */; };
+		411A50E11C87F72300EB8784 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 411A50E01C87F72300EB8784 /* AppDelegate.m */; };
+		411A50E41C87F72300EB8784 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 411A50E31C87F72300EB8784 /* ViewController.m */; };
+		411A50E71C87F72300EB8784 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 411A50E51C87F72300EB8784 /* Main.storyboard */; };
+		411A50E91C87F72300EB8784 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 411A50E81C87F72300EB8784 /* Assets.xcassets */; };
+		411A50EC1C87F72300EB8784 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 411A50EA1C87F72300EB8784 /* LaunchScreen.storyboard */; };
+		411A50F71C87F72300EB8784 /* AssistivewTouchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 411A50F61C87F72300EB8784 /* AssistivewTouchTests.m */; };
+		411A51021C87F72300EB8784 /* AssistivewTouchUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 411A51011C87F72300EB8784 /* AssistivewTouchUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		411A50F31C87F72300EB8784 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 411A50D11C87F72300EB8784 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 411A50D81C87F72300EB8784;
+			remoteInfo = AssistivewTouch;
+		};
+		411A50FE1C87F72300EB8784 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 411A50D11C87F72300EB8784 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 411A50D81C87F72300EB8784;
+			remoteInfo = AssistivewTouch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		411A50D91C87F72300EB8784 /* AssistivewTouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AssistivewTouch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		411A50DD1C87F72300EB8784 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		411A50DF1C87F72300EB8784 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		411A50E01C87F72300EB8784 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		411A50E21C87F72300EB8784 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		411A50E31C87F72300EB8784 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		411A50E61C87F72300EB8784 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		411A50E81C87F72300EB8784 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		411A50EB1C87F72300EB8784 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		411A50ED1C87F72300EB8784 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		411A50F21C87F72300EB8784 /* AssistivewTouchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AssistivewTouchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		411A50F61C87F72300EB8784 /* AssistivewTouchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AssistivewTouchTests.m; sourceTree = "<group>"; };
+		411A50F81C87F72300EB8784 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		411A50FD1C87F72300EB8784 /* AssistivewTouchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AssistivewTouchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		411A51011C87F72300EB8784 /* AssistivewTouchUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AssistivewTouchUITests.m; sourceTree = "<group>"; };
+		411A51031C87F72300EB8784 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		411A50D61C87F72300EB8784 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		411A50EF1C87F72300EB8784 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		411A50FA1C87F72300EB8784 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		411A50D01C87F72300EB8784 = {
+			isa = PBXGroup;
+			children = (
+				411A50DB1C87F72300EB8784 /* AssistivewTouch */,
+				411A50F51C87F72300EB8784 /* AssistivewTouchTests */,
+				411A51001C87F72300EB8784 /* AssistivewTouchUITests */,
+				411A50DA1C87F72300EB8784 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		411A50DA1C87F72300EB8784 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				411A50D91C87F72300EB8784 /* AssistivewTouch.app */,
+				411A50F21C87F72300EB8784 /* AssistivewTouchTests.xctest */,
+				411A50FD1C87F72300EB8784 /* AssistivewTouchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		411A50DB1C87F72300EB8784 /* AssistivewTouch */ = {
+			isa = PBXGroup;
+			children = (
+				411A50DF1C87F72300EB8784 /* AppDelegate.h */,
+				411A50E01C87F72300EB8784 /* AppDelegate.m */,
+				411A50E21C87F72300EB8784 /* ViewController.h */,
+				411A50E31C87F72300EB8784 /* ViewController.m */,
+				411A50E51C87F72300EB8784 /* Main.storyboard */,
+				411A50E81C87F72300EB8784 /* Assets.xcassets */,
+				411A50EA1C87F72300EB8784 /* LaunchScreen.storyboard */,
+				411A50ED1C87F72300EB8784 /* Info.plist */,
+				411A50DC1C87F72300EB8784 /* Supporting Files */,
+			);
+			path = AssistivewTouch;
+			sourceTree = "<group>";
+		};
+		411A50DC1C87F72300EB8784 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				411A50DD1C87F72300EB8784 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		411A50F51C87F72300EB8784 /* AssistivewTouchTests */ = {
+			isa = PBXGroup;
+			children = (
+				411A50F61C87F72300EB8784 /* AssistivewTouchTests.m */,
+				411A50F81C87F72300EB8784 /* Info.plist */,
+			);
+			path = AssistivewTouchTests;
+			sourceTree = "<group>";
+		};
+		411A51001C87F72300EB8784 /* AssistivewTouchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				411A51011C87F72300EB8784 /* AssistivewTouchUITests.m */,
+				411A51031C87F72300EB8784 /* Info.plist */,
+			);
+			path = AssistivewTouchUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		411A50D81C87F72300EB8784 /* AssistivewTouch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 411A51061C87F72300EB8784 /* Build configuration list for PBXNativeTarget "AssistivewTouch" */;
+			buildPhases = (
+				411A50D51C87F72300EB8784 /* Sources */,
+				411A50D61C87F72300EB8784 /* Frameworks */,
+				411A50D71C87F72300EB8784 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AssistivewTouch;
+			productName = AssistivewTouch;
+			productReference = 411A50D91C87F72300EB8784 /* AssistivewTouch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		411A50F11C87F72300EB8784 /* AssistivewTouchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 411A51091C87F72300EB8784 /* Build configuration list for PBXNativeTarget "AssistivewTouchTests" */;
+			buildPhases = (
+				411A50EE1C87F72300EB8784 /* Sources */,
+				411A50EF1C87F72300EB8784 /* Frameworks */,
+				411A50F01C87F72300EB8784 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				411A50F41C87F72300EB8784 /* PBXTargetDependency */,
+			);
+			name = AssistivewTouchTests;
+			productName = AssistivewTouchTests;
+			productReference = 411A50F21C87F72300EB8784 /* AssistivewTouchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		411A50FC1C87F72300EB8784 /* AssistivewTouchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 411A510C1C87F72300EB8784 /* Build configuration list for PBXNativeTarget "AssistivewTouchUITests" */;
+			buildPhases = (
+				411A50F91C87F72300EB8784 /* Sources */,
+				411A50FA1C87F72300EB8784 /* Frameworks */,
+				411A50FB1C87F72300EB8784 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				411A50FF1C87F72300EB8784 /* PBXTargetDependency */,
+			);
+			name = AssistivewTouchUITests;
+			productName = AssistivewTouchUITests;
+			productReference = 411A50FD1C87F72300EB8784 /* AssistivewTouchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		411A50D11C87F72300EB8784 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Chenxuhun;
+				TargetAttributes = {
+					411A50D81C87F72300EB8784 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					411A50F11C87F72300EB8784 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 411A50D81C87F72300EB8784;
+					};
+					411A50FC1C87F72300EB8784 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 411A50D81C87F72300EB8784;
+					};
+				};
+			};
+			buildConfigurationList = 411A50D41C87F72300EB8784 /* Build configuration list for PBXProject "AssistivewTouch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 411A50D01C87F72300EB8784;
+			productRefGroup = 411A50DA1C87F72300EB8784 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				411A50D81C87F72300EB8784 /* AssistivewTouch */,
+				411A50F11C87F72300EB8784 /* AssistivewTouchTests */,
+				411A50FC1C87F72300EB8784 /* AssistivewTouchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		411A50D71C87F72300EB8784 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				411A50EC1C87F72300EB8784 /* LaunchScreen.storyboard in Resources */,
+				411A50E91C87F72300EB8784 /* Assets.xcassets in Resources */,
+				411A50E71C87F72300EB8784 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		411A50F01C87F72300EB8784 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		411A50FB1C87F72300EB8784 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		411A50D51C87F72300EB8784 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				411A50E41C87F72300EB8784 /* ViewController.m in Sources */,
+				411A50E11C87F72300EB8784 /* AppDelegate.m in Sources */,
+				411A50DE1C87F72300EB8784 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		411A50EE1C87F72300EB8784 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				411A50F71C87F72300EB8784 /* AssistivewTouchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		411A50F91C87F72300EB8784 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				411A51021C87F72300EB8784 /* AssistivewTouchUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		411A50F41C87F72300EB8784 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 411A50D81C87F72300EB8784 /* AssistivewTouch */;
+			targetProxy = 411A50F31C87F72300EB8784 /* PBXContainerItemProxy */;
+		};
+		411A50FF1C87F72300EB8784 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 411A50D81C87F72300EB8784 /* AssistivewTouch */;
+			targetProxy = 411A50FE1C87F72300EB8784 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		411A50E51C87F72300EB8784 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				411A50E61C87F72300EB8784 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		411A50EA1C87F72300EB8784 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				411A50EB1C87F72300EB8784 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		411A51041C87F72300EB8784 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		411A51051C87F72300EB8784 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		411A51071C87F72300EB8784 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AssistivewTouch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Chenxuhun.AssistivewTouch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		411A51081C87F72300EB8784 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AssistivewTouch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Chenxuhun.AssistivewTouch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		411A510A1C87F72300EB8784 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AssistivewTouchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Chenxuhun.AssistivewTouchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AssistivewTouch.app/AssistivewTouch";
+			};
+			name = Debug;
+		};
+		411A510B1C87F72300EB8784 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AssistivewTouchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Chenxuhun.AssistivewTouchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AssistivewTouch.app/AssistivewTouch";
+			};
+			name = Release;
+		};
+		411A510D1C87F72300EB8784 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AssistivewTouchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Chenxuhun.AssistivewTouchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AssistivewTouch;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		411A510E1C87F72300EB8784 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AssistivewTouchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Chenxuhun.AssistivewTouchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AssistivewTouch;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		411A50D41C87F72300EB8784 /* Build configuration list for PBXProject "AssistivewTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				411A51041C87F72300EB8784 /* Debug */,
+				411A51051C87F72300EB8784 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		411A51061C87F72300EB8784 /* Build configuration list for PBXNativeTarget "AssistivewTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				411A51071C87F72300EB8784 /* Debug */,
+				411A51081C87F72300EB8784 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		411A51091C87F72300EB8784 /* Build configuration list for PBXNativeTarget "AssistivewTouchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				411A510A1C87F72300EB8784 /* Debug */,
+				411A510B1C87F72300EB8784 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		411A510C1C87F72300EB8784 /* Build configuration list for PBXNativeTarget "AssistivewTouchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				411A510D1C87F72300EB8784 /* Debug */,
+				411A510E1C87F72300EB8784 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 411A50D11C87F72300EB8784 /* Project object */;
+}
