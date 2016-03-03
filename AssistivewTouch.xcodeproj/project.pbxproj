@@ -15,6 +15,8 @@
 		411A50EC1C87F72300EB8784 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 411A50EA1C87F72300EB8784 /* LaunchScreen.storyboard */; };
 		411A50F71C87F72300EB8784 /* AssistivewTouchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 411A50F61C87F72300EB8784 /* AssistivewTouchTests.m */; };
 		411A51021C87F72300EB8784 /* AssistivewTouchUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 411A51011C87F72300EB8784 /* AssistivewTouchUITests.m */; };
+		411A51131C87F75F00EB8784 /* AsstisTouch.png in Resources */ = {isa = PBXBuildFile; fileRef = 411A51101C87F75F00EB8784 /* AsstisTouch.png */; };
+		411A51141C87F75F00EB8784 /* DTouchButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 411A51121C87F75F00EB8784 /* DTouchButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		411A50FD1C87F72300EB8784 /* AssistivewTouchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AssistivewTouchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		411A51011C87F72300EB8784 /* AssistivewTouchUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AssistivewTouchUITests.m; sourceTree = "<group>"; };
 		411A51031C87F72300EB8784 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		411A51101C87F75F00EB8784 /* AsstisTouch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AsstisTouch.png; sourceTree = "<group>"; };
+		411A51111C87F75F00EB8784 /* DTouchButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTouchButton.h; sourceTree = "<group>"; };
+		411A51121C87F75F00EB8784 /* DTouchButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTouchButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +106,7 @@
 		411A50DB1C87F72300EB8784 /* AssistivewTouch */ = {
 			isa = PBXGroup;
 			children = (
+				411A510F1C87F75F00EB8784 /* TouchButton */,
 				411A50DF1C87F72300EB8784 /* AppDelegate.h */,
 				411A50E01C87F72300EB8784 /* AppDelegate.m */,
 				411A50E21C87F72300EB8784 /* ViewController.h */,
@@ -138,6 +144,16 @@
 				411A51031C87F72300EB8784 /* Info.plist */,
 			);
 			path = AssistivewTouchUITests;
+			sourceTree = "<group>";
+		};
+		411A510F1C87F75F00EB8784 /* TouchButton */ = {
+			isa = PBXGroup;
+			children = (
+				411A51101C87F75F00EB8784 /* AsstisTouch.png */,
+				411A51111C87F75F00EB8784 /* DTouchButton.h */,
+				411A51121C87F75F00EB8784 /* DTouchButton.m */,
+			);
+			path = TouchButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,6 +259,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				411A51131C87F75F00EB8784 /* AsstisTouch.png in Resources */,
 				411A50EC1C87F72300EB8784 /* LaunchScreen.storyboard in Resources */,
 				411A50E91C87F72300EB8784 /* Assets.xcassets in Resources */,
 				411A50E71C87F72300EB8784 /* Main.storyboard in Resources */,
@@ -270,6 +287,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				411A51141C87F75F00EB8784 /* DTouchButton.m in Sources */,
 				411A50E41C87F72300EB8784 /* ViewController.m in Sources */,
 				411A50E11C87F72300EB8784 /* AppDelegate.m in Sources */,
 				411A50DE1C87F72300EB8784 /* main.m in Sources */,
